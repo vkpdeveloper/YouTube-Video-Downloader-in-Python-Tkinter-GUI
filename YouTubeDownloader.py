@@ -51,7 +51,7 @@ def onClick():
         for v in videos:
             print(str(s)+". "+str(v))
             s += 1 
-        n = int(4)
+        n = int(1)
         vid = videos[n-1]
         destination = str(got_path)
         vid.download(destination)
